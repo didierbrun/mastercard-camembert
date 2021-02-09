@@ -3,7 +3,7 @@
 ## HTML
 
 Code HTML à insérer dans la page :
-```
+```html
 <div id="camembert">
     <canvas/>
     <div>Revenus<br/>2200€/mois</div>
