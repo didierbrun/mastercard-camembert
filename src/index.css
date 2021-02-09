@@ -1,13 +1,43 @@
 body {
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: #222;  
+  color: white;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  font-size: 2rem;
+  font-weight: 300;
+  user-select: none;
+  min-height: 100vh;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html {
+  background-color: #222;  
+  margin: 0;
+  border: 0;
+  font-size: 62.5%;
+}
+
+#root {
+  background-color: #222;  
+  min-height: 100vh;
+}
+
+p, h1, h2, h3, h4 {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  font-weight: 300;
+  font-size: 2rem;
+}
+
+section {
+  border: 1px solid #666;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src:  url('./fonts/Raleway-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: bold;
+  font-display: swap;
 }

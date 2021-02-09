@@ -1,0 +1,15 @@
+.container {
+    width: 28rem;
+    padding: 1rem;
+    margin-right: 1rem;
+}
+
+.amount {
+    font-size: 3rem;
+}
+
+.block{
+    padding: 1rem;
+    border: 1px solid #444;
+    margin-bottom: 1rem;
+}
