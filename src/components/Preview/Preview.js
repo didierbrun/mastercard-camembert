@@ -20,10 +20,10 @@ const Preview = ({ revenus, chargesFixes, chargesCourantes, dimension }) => {
             <div className={styles.window} style={{width: Math.round(dimension + 20), height: Math.round(dimension/2.0 + 20)}}>
                 <div id="camembert">
                     <canvas/>
-                    <div>Revenus<br/>2200€/mois</div>
-                    <div>Charges fixes<br/>2200€/mois</div>
-                    <div>Reste à vivre<br/>2200€/mois</div>
-                    <div>Charges courantes<br/>2200€/mois</div>
+                    <div>Revenus<br/>{Math.round(revenus)}€/mois</div>
+                    <div>Charges fixes<br/>{Math.round(chargesFixes)}€/mois</div>
+                    <div>Reste à vivre<br/>{Math.round(revenus - chargesFixes)}€/mois</div>
+                    <div>Charges courantes<br/>{Math.round(chargesCourantes)}€/mois</div>
                 </div>
             </div>
         </section>
